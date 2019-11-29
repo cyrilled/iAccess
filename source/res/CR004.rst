@@ -1,7 +1,7 @@
 CR004 Matériels de contrôle d'accès 
 ===================================
 
-:Date: 03-15 07h-20h
+:Date: 03-15-07h-20h
 :Type: Réunion
 :PartiesPrenantes: KWG, CMS, YBI, MPA, ZSH
 :Lieu: Berlin-Bissis
@@ -13,9 +13,10 @@ CR004 Matériels de contrôle d'accès
 .. attention::
     Ce compte rendu est un *document de travail* et n'est pas contractuel.
 
-#. Nouvelles parties prenantes :
-#. _ Clarissa Maris (CMS) - Bissis, Berlin
-#. _ Yohav El Benali (YBI) - Bissis, Berlin
+Nouvelles parties prenantes :
+ - Clarissa Maris (CMS) - Bissis, Berlin
+ - Yohav El Benali (YBI) - Bissis, Berlin
+
 #. La réunion a eu lieu dans les locaux de Bissis.
 #. Bissis est sur le point de commercialiser des sas de sécurité révolutionnaires.
 #. Ces systèmes physiques seront prochainement commercialisés sous le nom de *Bissas*.

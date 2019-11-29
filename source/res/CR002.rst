@@ -14,8 +14,9 @@ CR002 Réunion iAcces pour le stade Kasumigaoka de Tokyo
     Ce compte rendu est un *document de travail* et n'est pas contractuel.
 
 
-#. Nouvel intervenant :
-#. _ Apito GUARACARUMBO (AGO) - Competis, Tokyo
+Nouvel intervenant :
+ - Apito GUARACARUMBO (AGO) - Competis, Tokyo
+
 #. La réunion a eu lieu sur le site du stade Kasumigaoka de Tokyo (新国立霞ヶ丘競技場) guidé par AGO.
 #. Le stade a été détruit et est actuellement reconstruit à neuf pour les jeux olympiques d'été de 2020.
 #. Son accès doit être sécurisé pour fin 2019.

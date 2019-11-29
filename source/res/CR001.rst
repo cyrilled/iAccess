@@ -1,7 +1,7 @@
 CR001 Réunion de lancement de iAccess
 =====================================
 
-:Date: 02-01 08h-10h
+:Date: 02-01 08h-10h d
 :Type: Réunion
 :Lieu: Grenoble-AccessIT
 :PartiesPrenantes: ABI, JDR, KWG, MPA, PSO, TNA, ZSH
@@ -14,17 +14,17 @@ CR001 Réunion de lancement de iAccess
 
     Ce compte rendu est un document de travail et n'est pas contractuel.
 
-#.  En ce début de projet, les parties prenantes sont les suivantes :
-#.  - Ahmed BLASI (ABI) – IM2AG, Grenoble
-#.  - Jean-Claude DUFOUR (JDR) - AccessIT, Grenoble
-#.  - Ken WONG (KWG) – IM2AG, Grenoble
-#.  - Mireille PALMA (MPA) – AccessIT, Lisbonne
-#.  - Paolo SANTIAGO SANCHEZ (PSO) – AccessIT, Caracas
-#.  - Hong SHI (HSI) – AccessIT, Zurich
-#.  - Tararya NARAMANATA (TNA) – AccessIT, Nantes
-#.  - Zork SWISH (ZSH) – AccessIT, Autriche
-#.  - Cassandra COHEN (CCN) - IM2AG, Grenoble
-#. ------------------------------------------- 
+En ce début de projet, les parties prenantes sont les suivantes :
+ - Ahmed BLASI (ABI) – IM2AG, Grenoble
+ - Jean-Claude DUFOUR (JDR) - AccessIT, Grenoble
+ - Ken WONG (KWG) – IM2AG, Grenoble
+ - Mireille PALMA (MPA) – AccessIT, Lisbonne
+ - Paolo SANTIAGO SANCHEZ (PSO) – AccessIT, Caracas
+ - Hong SHI (HSI) – AccessIT, Zurich
+ - Tararya NARAMANATA (TNA) – AccessIT, Nantes
+ - Zork SWISH (ZSH) – AccessIT, Autriche
+ - Cassandra COHEN (CCN) - IM2AG, Grenoble
+
 #. Le présent projet a été baptisé iAccess.
 #. Les demandes de sécurisation de sites et de bâtiments se développent suite aux attentats des dernières années. Il s'agit d'une opportunité commerciale pour les sociétés de sécurité comme AccessIT.
 #. La société AccessIT est spécialisée dans les systèmes de contrôle d’accès.
