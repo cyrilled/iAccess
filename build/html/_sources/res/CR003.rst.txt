@@ -14,8 +14,8 @@ CR003 Réunion iAcces pour Chimiotis
     Ce compte rendu est un *document de travail* et n'est pas contractuel.
 
 
-#. Nouvel intervenant, directeur de l'usine à Morrocoy :
-#. _ Eliezer LAEMMEL (ELL) - Morrocoy, Chimiotis
+Nouvel intervenant, directeur de l'usine à Morrocoy :
+ - Eliezer LAEMMEL (ELL) - Morrocoy, Chimiotis
 
 #. Grâce aux contacts d'AGO, une visite du site chimique de Morrocoy a été organisée opportunément.
 #. Chimiotis, la société gérante désire s’équiper de bissass pour son système d’accès sécurisé.

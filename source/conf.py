@@ -20,6 +20,7 @@
 project = 'iAccess'
 copyright = '2019, UFR IM2AG'
 author = 'UFR IM2AG'
+master_doc = 'index'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
