@@ -1,7 +1,7 @@
 CR004 Matériels de contrôle d'accès 
 ===================================
 
-:Date: 03-15-07h-20h
+:Date: 03-15 07h-20h
 :Type: Réunion
 :PartiesPrenantes: KWG, CMS, YBI, MPA, ZSH
 :Lieu: Berlin-Bissis
