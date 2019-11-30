@@ -82,7 +82,7 @@ Nouvel intervenant :
 
         Fig. 3 : Exemple de fichier généré par Competis - Exemple Competis 01_05
 
-#. La transmission des données entre CyberCompetition et iAccess devra se faire via un web service sécurisé.
+#. La transmission des données entre CyberCompetition et iAccess devra se faire via un web-service sécurisé.
 #. En conclusion, les besoins du stade olympique de Tokyo sont tout à fait pertinents pour iAccess.
 #. AccessIT confirme son intérêt de développer une version de iAccess pour ce site.
 #. Cette version sera la première développée et sa conception sera faite au plus vite par l'IM2AG.
