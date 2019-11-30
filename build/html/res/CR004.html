@@ -88,7 +88,7 @@ participer à l’élaboration de iAccess.</p></li>
 <li><p>Toutes les parties logicielles sur le serveur applicatif pourront être réalisées en amont grâce à la simulation des bissas et des caméras pilotées par les drivers à installer sur le serveur de contrôle.</p></li>
 <li><p>AccessIT, qui travaille depuis longtemps avec Bissis, est confiant dans cette démarche.</p></li>
 <li><p>L’utilisation d’une spécification UML a été soulignée comme un point essentiel dans ce contexte tendu.</p></li>
-<li><p>Il a été convenu que l’IM2AG fournirait rapidement des scénarios qui serviront à écrire les tests de la version pour Morrocoy.</p></li>
+<li><p>Il a été convenu que l’IM2AG fournirait rapidement des scénarios qui serviront à écrire les tests de la version pour le stade de Tokyo.</p></li>
 <li><p>Il s’agit non seulement de tester les scénarios de passage sans incident, mais aussi les scénarios générant des alarmes envoyées aux gardiens.</p></li>
 <li><p>En ce qui concerne les fonctionnalités des bissas, Bissis a proposé une illustration via l’étude d’un système proposé par un de ses concurrents.</p></li>
 <li><p>Les bissas ressembleront <em>par certains côtés</em> au système « Cilindro Bibussola » de <a class="reference external" href="http://www.archiexpo.com/prod/alluser-industrie/sliding-doors-commercial-buildings-security-automatic-52110-624140.html#product-item_142100">AllUserIndustrie</a>:</p>
@@ -140,7 +140,9 @@ participer à l’élaboration de iAccess.</p></li>
 (disponible = vert, rouge = utilisé, orange = bientôt libre).</p></li>
 <li><p>Ce feu tricolore permet de montrer le prochain bissas Astra disponible (voyant orange).</p></li>
 <li><p>Pour cela, un détecteur de présence à l’intérieur fait passer le feu à l’orange lorsqu’un badgeur est entré dans le bissas et que la seconde porte s’ouvre.</p></li>
-<li><p>En fait, une fois de plus, ce genre de fonctionnalités est prédéfini et intégré au bissas et ne sont pas commandés par le driver de Bissas depuis le serveur de contrôle.</p></li>
+<li><p>En fait, contrairement aux autres fonctionnalités, le contrôle des feux tricolores est intégré au bissas ASTRA et ne doit pas être commandés par le driver de Bissas depuis le serveur de contrôle.</p></li>
+<li><p>Pour le stade de Tokyo, on souhaite aussi détecter le piggypacking, c’est à dire quand plus d’une personne entre dans le bissas.</p></li>
+<li><p>Dans ce cas, la porte sera refermée et une alarme envoyée aux gardiens qui devront intervenir pour débloquer le bissas.</p></li>
 <li><p>AccessIT insiste de nouveau sur le fait que différents scénarios devront donner lieu à des incidents envoyés aux gardiens.</p></li>
 <li><p>C’est le cas par exemple si un badgeur ne sort pas du sas au bout de 8 secondes.</p></li>
 <li><p>C’est également le cas si quelqu’un bloque une porte (avec un pied ou autre).</p></li>

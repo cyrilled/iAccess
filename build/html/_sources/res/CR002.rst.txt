@@ -19,7 +19,7 @@ Nouvel intervenant :
 
 #. La réunion a eu lieu sur le site du stade Kasumigaoka de Tokyo (新国立霞ヶ丘競技場) guidé par AGO.
 #. Le stade a été détruit et est actuellement reconstruit à neuf pour les jeux olympiques d'été de 2020.
-#. Son accès doit être sécurisé pour fin 2019.
+#. Son accès doit être sécurisé.
 #. Grâce aux bissas, cette installation a été considérée comme viable par AccessIT.
 #. AccessIT et Bissis seront les seuls à pouvoir équiper des sites avec des bissas.
 #. Un plan des installations a été fourni par Competis.
@@ -71,7 +71,7 @@ Nouvel intervenant :
 #. Plus de 400 000 billets seront sans doute émis (mais pas forcément utilisés).
 #. Le système en ligne CyberCompetition (par Competis) sera en charge de l'émission des billets.
 #. Pour les spectateurs les badges prendront la forme de QR codes sur leurs billets papiers (cf. CR002Fig2_)
-#. De façon générale des logiciels externes (e.g. CyberCompetition) devront pouvoir gérer les membres d’un groupe, comme ajouter des spectateurs à des compétitions pour lesquels des billets ont été émis par l’ERP CyberCompetition.
+#. De façon générale des logiciels externes (e.g. CyberCompetition) devront pouvoir gérer les membres d’un groupe, comme ajouter des spectateurs à des compétitions pour lesquels des billets ont été émis par CyberCompetition.
 #. Pour la transmission par un logiciel à iAccess des informations de gestion d’un groupe, seules certaines informations seront nécessaires
 #. Il a été convenu qu'un format XML soit utilisé dans ce cadre.
 #. Le fichier d’exemple ci-dessous a été fourni par Competis.
@@ -84,5 +84,7 @@ Nouvel intervenant :
         Fig. 3 : Exemple de fichier généré par Competis - Exemple Competis 01_05
 
 #. La transmission des données entre CyberCompetition et iAccess devra se faire via un web service sécurisé.
-#. En conclusion, la visite sur le site du stade olympique de Tokyo a été très instructive.
-#. Il correspond bien aux fonctionnalités de base que devra permettre iAccess à terme.
+#. En conclusion, les besoins du stade olympique de Tokyo sont tout à fait pertinents pour iAccess.
+#. AccessIT confirme son intérêt de développer une version de iAccess pour ce site.
+#. Cette version sera la première développée et sa conception sera faite au plus vite par l'IM2AG.
+

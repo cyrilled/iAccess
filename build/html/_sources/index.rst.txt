@@ -20,7 +20,3 @@ Comptes rendus de réunions
     res/CR004.rst
     res/CR005.rst
 
-Vous pouvez faire des recherche via la :ref:`search`
-
-Ce contenu est disponible sur le site http://iaccess.readthedocs.org
-

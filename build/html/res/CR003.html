@@ -111,35 +111,35 @@ les week-ends.</p></li>
 <li><p>Ce planning est représentatif de ce qui se passe chaque année.</p></li>
 <li><p>Les groupes du planning annuel sont homogènes par rapport aux zones autorisées.</p></li>
 <li><p>Autrement dit, pour une période un groupe peut accéder toujours aux mêmes zones (cf. <a class="reference internal" href="#cr003fig2">CR003Fig2</a>).</p></li>
-<li><p>En réalité, et selon un exemple donné par ELL, certains groupes (e.g. GX et GY) peuvent accéder à la zone PT et PO en semaine de 8h à 12h pendant l’été.</p></li>
-<li><p>Mais de plus GX peut en plus accéder à la zone X et DM le week-end de 16h à 23h de mars à avril.</p></li>
+<li><p>En réalité, et selon un exemple donné par ELL, le groupe GY peut accéder à la zone PT en semaine de 8h à 12h pendant l’été.</p></li>
+<li><p>Et GX peut accéder à la zone X le week-end de 16h à 23h de mars à avril.</p></li>
 <li><p>Actuellement tous ces différents cas sont gérés de manière ad-hoc par les gardiens en poste aux points d’accès de chaque zone.</p></li>
 <li><p>En pratique cette gestion est un peu aléatoire et se base sur le bon-vouloir des gardiens et des employés.</p></li>
 <li><p>Il faudra absolument définir des autorisations plus fines dans iAccess pour représenter ce genre de périodes.</p></li>
-<li><p>Une autorisation doit être un triplet (groupe(s), période, zone(s)).</p></li>
+<li><p>Une autorisation doit être un triplet (groupe, période, zone).</p></li>
 <li><p>Par exemple, en reprenant l’exemple donné par ELL, on doit pouvoir définir deux autorisations comme suit.</p>
 <blockquote>
 <div><table class="docutils align-default" id="id3">
 <caption><span class="caption-text">Tab. 1 : Exemple ELL 01-06</span><a class="headerlink" href="#id3" title="Lien permanent vers ce tableau">¶</a></caption>
 <colgroup>
 <col style="width: 18%" />
-<col style="width: 67%" />
-<col style="width: 16%" />
+<col style="width: 69%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
-<tr class="row-odd"><th class="head"><p>Groupes</p></th>
+<tr class="row-odd"><th class="head"><p>Groupe</p></th>
 <th class="head"><p>Période</p></th>
-<th class="head"><p>Zones</p></th>
+<th class="head"><p>Zone</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>GX, GY</p></td>
+<tr class="row-even"><td><p>GY</p></td>
 <td><p>xxxxxxJASxxx LMMJVxx 08:00-12:00</p></td>
-<td><p>PT, PO</p></td>
+<td><p>PT</p></td>
 </tr>
 <tr class="row-odd"><td><p>GX</p></td>
 <td><p>xxMAxxxxxxxx xxxxxSD 16:00-23:00</p></td>
-<td><p>X, DM</p></td>
+<td><p>X</p></td>
 </tr>
 </tbody>
 </table>
@@ -164,9 +164,9 @@ les week-ends.</p></li>
 <li><p>Ce web service devra être sécurisé pour des aspects de confidentialité mais aussi de sécurité (e.g. heures d’accès des gardiens, etc).</p></li>
 <li><p>A Tokyo, le service web d’export sera utilisé entre autres par les services commerciaux pour déterminer les billets vendus n’ayant pas été utilisés.</p></li>
 <li><p>Après discussion avec Competis, l’historique d’accès est également nécessaire pour Tokyo vu le grand niveau de sécurité attendu au Japon.</p></li>
-<li><p>En conclusion, les besoins du site de Morrocoy sont tout à fait pertinents pour iAccess.</p></li>
-<li><p>AccessIT confirme son intérêt de développer une version de iAccess pour ce site.</p></li>
-<li><p>Cette version sera la première développée par l’IM2AG.</p></li>
+<li><p>En conclusion, la visite sur le site de Morrocy a été très instructive.</p></li>
+<li><p>Il correspond bien aux fonctionnalités de base que devra permettre iAccess à terme, même s’il n’est pas développé immédiatement.</p></li>
+<li><p>Sa conception ne sera pas demandée à l’IM2AG.</p></li>
 <li><p>La prochaine réunion aura lieu comme prévu à Berlin - Bissis.</p></li>
 </ol>
 </div>

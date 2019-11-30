@@ -58,23 +58,23 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. Ce planning est représentatif de ce qui se passe chaque année.
 #. Les groupes du planning annuel sont homogènes par rapport aux zones autorisées.
 #. Autrement dit, pour une période un groupe peut accéder toujours aux mêmes zones (cf. CR003Fig2_).
-#. En réalité, et selon un exemple donné par ELL, certains groupes (e.g. GX et GY) peuvent accéder à la zone PT et PO en semaine de 8h à 12h pendant l'été.
-#. Mais de plus GX peut en plus accéder à la zone X et DM le week-end de 16h à 23h de mars à avril.
+#. En réalité, et selon un exemple donné par ELL, le groupe GY peut accéder à la zone PT en semaine de 8h à 12h pendant l'été.
+#. Et GX peut accéder à la zone X le week-end de 16h à 23h de mars à avril.
 #. Actuellement tous ces différents cas sont gérés de manière ad-hoc par les gardiens en poste aux points d'accès de chaque zone.
 #. En pratique cette gestion est un peu aléatoire et se base sur le bon-vouloir des gardiens et des employés.
 #. Il faudra absolument définir des autorisations plus fines dans iAccess pour représenter ce genre de périodes.
-#. Une autorisation doit être un triplet (groupe(s), période, zone(s)).
+#. Une autorisation doit être un triplet (groupe, période, zone).
 #. Par exemple, en reprenant l'exemple donné par ELL, on doit pouvoir définir deux autorisations comme suit.
 
     .. table:: Tab. 1 : Exemple ELL 01-06
 
-        +---------+----------------------------------+--------+
-        | Groupes |               Période            | Zones  |
-        +=========+==================================+========+
-        | GX, GY  | xxxxxxJASxxx LMMJVxx 08:00-12:00 | PT, PO |
-        +---------+----------------------------------+--------+
-        | GX      | xxMAxxxxxxxx xxxxxSD 16:00-23:00 | X, DM  |
-        +---------+----------------------------------+--------+
+        +---------+----------------------------------+------+
+        | Groupe  |               Période            | Zone |
+        +=========+==================================+======+
+        | GY      | xxxxxxJASxxx LMMJVxx 08:00-12:00 | PT   |
+        +---------+----------------------------------+------+
+        | GX      | xxMAxxxxxxxx xxxxxSD 16:00-23:00 |  X   |
+        +---------+----------------------------------+------+
 
 #. Les autorisations sous forme de triplets pourraient aussi convenir a priori pour le stade de Tokyo en 2020.
 #. Il s'agit en effet d'une représentation générale et sans doute satisfaisante.
@@ -95,7 +95,7 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. Ce web service devra être sécurisé pour des aspects de confidentialité mais aussi de sécurité (e.g. heures d'accès des gardiens, etc).
 #. A Tokyo, le service web d'export sera utilisé entre autres par les services commerciaux pour déterminer les billets vendus n'ayant pas été utilisés.
 #. Après discussion avec Competis, l'historique d'accès est également nécessaire pour Tokyo vu le grand niveau de sécurité attendu au Japon.
-#. En conclusion, les besoins du site de Morrocoy sont tout à fait pertinents pour iAccess.
-#. AccessIT confirme son intérêt de développer une version de iAccess pour ce site.
-#. Cette version sera la première développée par l'IM2AG.
+#. En conclusion, la visite sur le site de Morrocy a été très instructive.
+#. Il correspond bien aux fonctionnalités de base que devra permettre iAccess à terme, même s'il n'est pas développé immédiatement. 
+#. Sa conception ne sera pas demandée à l'IM2AG.
 #. La prochaine réunion aura lieu comme prévu à Berlin - Bissis.
