@@ -50,7 +50,7 @@ En ce début de projet, les parties prenantes sont les suivantes :
 #. AccessIT a décidé d'imposer l'utilisation d'UML pour la conception de ce projet (et d'autres projets).
 #. Plus particulièrement un accord a été passé avec ModelioSoft-Paris pour des licences Modelio.
 #. AccessIT utilisera une démarche agile pour s'assurer de l'adéquation du système avec les besoins des sites.
-#. La conception de la version de iAccess pour Morrocoy a été confiée à l’IM2AG
-#. La prochaine réunion aura lieu à Londres en présence de Competis.
+#. La conception de la version de iAccess pour le stade olympique de Tokyo a été confiée à l’IM2AG
+#. La prochaine réunion aura lieu à Tokyo en présence de Competis.
 #. En conclusion, il a été observé que ce consortium international ne pourrait fonctionner qui si toutes les parties prenantes parviennent à participer et à mettre en œuvre leur savoir-faire.
 #. Les différentes parties prenantes sont toutes conscientes des opportunités commerciales apportées par ce nouveau contexte sécuritaire.
