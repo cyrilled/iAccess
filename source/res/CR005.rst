@@ -40,7 +40,7 @@ CR005 Architecture et contraintes techniques
 #. Le règlement d’un incident dépend des cas.
 #. En cas d’incident d’accès, le gardien peut fermer ou ouvrir une des portes du bissas (ou les deux) depuis sa tablette.
 #. En cas d’incident d'incendie, le gardien peut déverrouiller un ou plusieurs bissas dans le sens de la sortie.
-#. Quand le bissas est déverrouillé, la simple détection d’une personne devant le bissas l'ouvre le bissas et il est refermé une fois qu’elle est passée.
+#. Quand le bissas est déverrouillé, la simple détection d’une personne devant le bissas l'ouvre et qu'il est refermé une fois qu’elle est passée.
 #. En situation de crise, le temps de réaction des gardiens peut devenir essentiel.
 #. Pour améliorer la rapidité d’intervention des gardiens, iAccess fournira dans une seconde version un paramétrage avec des types d'incidents prédéfinis.
 #. C'est le rôle des superviseurs de les définir et cela se fait généralement lors de la définition du plan sécurité initial en fonction des caractéristiques du site.
@@ -56,7 +56,7 @@ CR005 Architecture et contraintes techniques
 #. Les administrateurs gèrent non seulement les inscriptions des badgeurs, mais aussi les problèmes liés à la perte d'un badge.
 #. Lorsqu'un badge est perdu, volé (y compris via agression), le badgeur est tenu d'en informer immédiatement le centre de sécurité.
 #. Cela ne concerne pas les tickets avec des badges papier, qui sont gérés directement par la société qui les vend.
-#. Quel que soit le type de badge, un badge est toujours associé à une seule personne à la fois et une personne ne peut posséder qu'un badge (pour un site) à un moment donné.
+#. Un badge est toujours associé à une seule personne à la fois et une personne ne peut posséder qu'un badge (pour un site) à un moment donné.
 #. Les badgeurs sont connus au minimum par leur nom et leur prénom et un numéro d'identité national (NIN).
 #. Le NIN utilisé dépend des personnes et des pays considérés.
 #. Ce peut être le numéro de passeport, le numéro de carte d'identité ou tout autre document selon le pays.

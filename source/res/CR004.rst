@@ -25,7 +25,7 @@ Nouvelles parties prenantes :
 #. Il est entendu que Bissis fournira ces Bissas et pour chaque modèle un driver logiciel pour l'intégrer à iAccess
 #. Par contre un problème est vite apparu pendant la réunion.
 #. Il sera impossible de voir les bissas avant au moins deux mois, et cela pour des problèmes de confidentialité.
-#. Vu les très nombreuses innovations, de multiples brevets sont en court d'acquisition et ce procédé est long.
+#. Vu les très nombreuses innovations, de multiples brevets sont en cours d'acquisition et ce procédé est long.
 #. La direction ne souhaite prendre aucun risque de fuites et même en interne seuls certains employés (e.g. YBI) ont une vision globale des bissas tel qu'ils seront présentés dans quelques mois.
 #. Après quelques échanges et discussions animées, il est apparu que ce ne devrait cependant pas être un problème pour iAccess.
 #. Bissis fournira des simulateurs pour que puissent commencer les tests lorsque nécessaires.
