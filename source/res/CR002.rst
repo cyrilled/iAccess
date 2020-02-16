@@ -62,7 +62,7 @@ Nouvel intervenant :
 #. Même si différents groupes de badgeurs ont été identifiés, d'autres pourraient apparaître.
 #. Un superviseur unique par site pourra créer des administrateurs pour ces groupes. Il leur donnera des droits sur la gestion d'une ou plusieurs zones.
 #. Chaque groupe d'un site sera alors créé et géré par un administrateur et pas par le superviseur.
-#. Par exemple les administrateurs des sportifs pourront éditer leurs badges et définir les zones auxquelles ils ont accès et à quels moments. 
+#. Par exemple les administrateurs des sportifs pourront leur affecter des badges et définir les zones auxquelles ils ont accès et à quels moments. 
 #. Les administrateurs de presse s'occuperont des badges des journalistes, etc.
 #. Bien entendu les administrateurs de groupe ne pourront pas donner à un groupe l'accès à des zones dont il n'est pas chargé. 
 #. Les badges papiers pour les spectateurs seront émis par un système en ligne.

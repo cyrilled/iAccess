@@ -38,7 +38,7 @@ CR005 Architecture et contraintes techniques
 #. En fonction des cas, et la plupart du temps après s'être rendu sur place, le gardien peut agir sur l’incident pour l’ignorer ou le régler.
 #. Un incident ignoré ou réglé est considéré comme fermé mais peut encore être commenté, en lui associant du texte, des photos ou de l’audio/vidéo.
 #. Le règlement d’un incident dépend des cas.
-#. En cas d’incident d’accès, le gardien peut fermer ou ouvrir une des portes du bissas (ou les deux) depuis sa tablette.
+#. En cas d’incident d’accès, le gardien peut fermer ou ouvrir une des portes du bissas (ou les deux) depuis son smartphone
 #. En cas d’incident d'incendie, le gardien peut déverrouiller un ou plusieurs bissas dans le sens de la sortie.
 #. Quand le bissas est déverrouillé, la simple détection d’une personne devant le bissas l'ouvre et qu'il est refermé une fois qu’elle est passée.
 #. En situation de crise, le temps de réaction des gardiens peut devenir essentiel.
