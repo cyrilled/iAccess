@@ -36,7 +36,7 @@ CR005 Architecture et contraintes techniques
 #. Les incidents doivent être localisés (e.g. bissas, point d'accès et/ou zone) et gardés dans l'historique.
 #. Lorsqu'un gardien prend un incident, celui change d'état ("nouveau"->"affecté").
 #. En fonction des cas, et la plupart du temps après s'être rendu sur place, le gardien peut agir sur l’incident pour l’ignorer ou le régler.
-#. Un incident ignoré ou réglé est considéré comme fermé mais peut encore être commenté, en lui associant du texte, des photos ou de l’audio/vidéo.
+#. Un gardien peut commenter un incident à tout moment, qu'il l'ai pris, réglé ou ignoré, en lui associant du texte, des photos ou de l’audio/vidéo.
 #. Le règlement d’un incident dépend des cas.
 #. En cas d’incident d’accès, le gardien peut fermer ou ouvrir une des portes du bissas (ou les deux) depuis son smartphone
 #. En cas d’incident d'incendie, le gardien peut déverrouiller un ou plusieurs bissas dans le sens de la sortie.
