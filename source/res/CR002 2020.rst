@@ -35,6 +35,7 @@ Nouvel intervenant :
 
 #. Les différentes zones du site ont été représentées sur le plan sécurité.
 #. Par contre les bâtiments, installations et autres espaces non sécurisés n'y sont pas.
+
 #. De même pour les entrées de véhicules et autres entrées gérées par des vigiles.
 #. Les différents types de bissas ont été choisis en fonction du niveau de sécurité à atteindre.
 #. Il est rappelé qu'une présentation des bissas aura lieu à Berlin - Bissis.

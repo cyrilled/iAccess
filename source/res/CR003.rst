@@ -1,36 +1,39 @@
-CR003 Réunion iAcces pour Chimiotis
+CR003 Réunion iAcces pour Ryokan
 ===================================
 
 :Date: 02-17 15h-23h
 :Type: Réunion
-:Lieu: Morrocoy-Chimiotis
+:Lieu: Neuilly - EHPAD Rives de Seine de Ryokan
 :PartiesPrenantes: ABI, JDR, PSO, AGO
 :Organisateur: ABI
 :Rapporteur: KWG
-:Presents: ABI, JDR, PSO, AGO,
-:Objectifs: Cas d'étude Usine de Morrocoy
+:Presents: ABI, JDR, PSO, AGO, EDT
+:Objectifs: Cas d'étude EHPADs de Ryokan
 
 .. attention::
     Ce compte rendu est un *document de travail* et n'est pas contractuel.
 
+Nouvel intervenant, directeur de l'EHPAD Rives de Seine à Neuilly :
+ - Etienne Dumont (EDT) - Neuilly, Ryokan
 
-Nouvel intervenant, directeur de l'usine à Morrocoy :
- - Eliezer LAEMMEL (ELL) - Morrocoy, Chimiotis
+#. La réunion a eu lieu à l'EHPAD Rives de Seine à Neuilly guidé par EDT.
+#. Ryokan a des besoins urgents de s’équiper d'un système de contrôle d'accès, du fait de l'épidémie de COVID.
+#. L'EHPAD Rives de Seine à Neuilly est bâti suivant le plan général des EHPAD de Ryokan et peur servir d'exemple pour les autre EHPAD de l'entreprise.
+#. Les conditions d'accès sont similaires à l'usine de Morrocoy : groupes gérés, équipe soignantes qui font les 3/8, accès avec des bissas.
+#. Il y a cependant des différences
+#. - l'accès au bâtiment se fait après contrôle de la température corporelle et sans identification physique à la seconde porte. Une identification de la proximité du badge d'accès suffira.
+#. - l'accès aux pièces à l'intérieur de l'EHPAD (salles, chambres, bureaux, cuisine, locaux techniques, ..) se fera par de simples portes à contrôle d'accès, sans nécessairement enregistrer les passages. La sortie sera libre, sans contrôle.
+#. - en cas d'incendie, les portes extérieures (des bissas) seront automatiquement déverrouillées.
 
-#. Grâce aux contacts d'AGO, une visite du site chimique de Morrocoy a été organisée opportunément.
-#. Chimiotis, la société gérante désire s’équiper de bissass pour son système d’accès sécurisé.
-#. Il s'agit donc d'un prospect chaud pour iAccess.
-#. Un premier plan sécurité a été créé à partir des informations fournies par Chimiotis.
 
-    .. _CR003Fig1:
 
-    .. figure:: media/morrocoy.png
-        :align: center
 
-        Fig. 1 : Potentiel plan sécurité pour le site de Morrocoy
 
-#. Contrairement au stade de Tokyo, le site Morrocoy n'accueille pas de spectateurs.
-#. Un élément important concerne les règles à appliquer en cas d'incendie dans une zone.
+
+
+
+
+
 #. Tous les points d'accès doivent être ouverts automatiquement vers l’extérieur dans les zones dites "Incendie Libre" (IL).
 #. Dans les autres zones, un incident est envoyé à tous les gardiens.
 #. Chaque gardien signale qu'il a bien reçu l'incident et peut ensuite consulter si des personnes sont présentes dans la zone et débloquer tel ou tel point d'accès.
