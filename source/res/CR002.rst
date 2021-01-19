@@ -98,9 +98,9 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. Chaque gardien signale qu'il a bien reçu l'incident et peut ensuite consulter si des personnes sont présentes dans la zone et débloquer tel ou tel point d'accès.
 #. Il faudra donc prendre en compte les systèmes à incendie et les interfacer avec iAccess.
 #. Actuellement l'usine est gardée par 60 gardiens, 24/24.
-#. Avec iAccess on estime que 4 gardiens serait suffisant, d'où 12 en 3x8.
+#. Avec iAccess on estime que 4 gardiens seraient suffisants, d'où 12 en 3x8.
 
-#. Comme pour les autres sites, le serveur de contrôle serait installé dans la salle de contrôle.
+#. Comme pour les autres sites, le serveur de contrôle sera installé dans la salle de contrôle.
 
 #. Chemiotis émet également le besoin de pouvoir recevoir des visiteurs via des badges courts.
 #. Dans ce cas les badges courts pourraient être distribués en direct à la réception et utilisés immédiatement.
