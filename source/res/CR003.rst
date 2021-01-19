@@ -25,3 +25,9 @@ Nouvel intervenant, directeur de l'EHPAD Rives de Seine à Neuilly :
 #. - l'accès aux pièces à l'intérieur de l'EHPAD (salles, chambres, bureaux, cuisine, locaux techniques, ..) se fera par de simples portes à contrôle d'accès, sans nécessairement enregistrer les passages. La sortie des pièces sera libre, sans contrôle.
 #. - en cas d'incendie, les portes extérieures (des bissas) seront automatiquement déverrouillées.
 #. Il faudra donc prendre en compte les systèmes à incendie et les interfacer avec iAccess.
+
+#. En conclusion, la visite sur dans l'EHPAD a été assez rapide, car les besoins sont assez similaires à Morrocoy et tout à fait pertinents pour iAccess.
+#. AccessIT confirme son intérêt de développer une version de iAccess pour ce site. 
+#. Cette version sera la première développée et sa conception sera faite au plus vite par l'IM2AG.
+#. Il faudra bien veiller à prendre en compte les spécificités de Ryokan par rapport à Chimiotis.
+#. La prochaine réunion aura lieu comme prévu à Berlin - Bissis.
