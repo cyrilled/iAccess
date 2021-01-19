@@ -91,7 +91,7 @@ Nouvelles parties prenantes :
 #. La sortie du bissas est contrôlée par une seconde lecture du badge, pour éviter que quelqu'un fasse entrer une autre personne avec son badge.
 #. Ces bissas répondent tout à fait aux attentes de Ryokan, en particulier avec des badges de proximité pour les personnels.
 #. Les visiteurs réguliers (médecin, fournisseurs, voire même certains proches de résidents, pourront avoir des badges classiques (passage dans le lecteur). Cette fonctionnalité n'est pas prioritaire et sera développée ultérieurement. 
-#. Le fonctionnement global des bissas Metra est identique aux bisas XSTRA.  
+#. Le fonctionnement global des bissas Metra est identique aux bisas XTRA.  
 
 #. AccessIT insiste de nouveau sur le fait que différents scénarios devront donner lieu à des incidents envoyés aux gardiens.
 #. C'est le cas par exemple si un badgeur ne sort pas du sas au bout de 8 secondes.
