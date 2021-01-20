@@ -28,7 +28,7 @@ CR005 Architecture et contraintes techniques
 
     .. _CR005Fig2:
 
-    .. figure:: media/samsung.jpg
+    .. figure:: media/samsungtab.jpg
         :align: center
 
         Fig. 1 : Mini-tablettes des gardiens
