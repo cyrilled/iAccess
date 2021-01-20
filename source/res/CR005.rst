@@ -26,8 +26,6 @@ CR005 Architecture et contraintes techniques
 #. Les applis des mini-tablettes des gardiens seront connectées au serveur applicatif via une connexion sécurisée https et un réseau wifi interne sécurisé.
 #. AccessIT mentionne qu'il est possible d'installer des systèmes de brouillage et bien d'autres choses, qui rendent ce réseau à la fois sûr et fiable.
 
-    .. _CR005Fig2:
-
     .. figure:: media/samsungtab.jpg
         :align: center
 

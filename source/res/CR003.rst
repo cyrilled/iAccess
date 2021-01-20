@@ -19,6 +19,12 @@ Nouvel intervenant, directeur de l'EHPAD Rives de Seine à Neuilly :
 #. La réunion a eu lieu à l'EHPAD Rives de Seine à Neuilly guidé par EDT.
 #. Ryokan a des besoins urgents de s’équiper d'un système de contrôle d'accès, du fait de l'épidémie de COVID.
 #. L'EHPAD Rives de Seine à Neuilly est bâti suivant le plan général des EHPAD de Ryokan et pourra servir d'exemple pour les autre EHPAD de l'entreprise.
+#. Le plan du rez-de chaussée d'une unité est donné ci-dessous
+    .. figure:: media/plan-rdc.png
+        :align: center
+
+        Fig. 1 : Rives de Seine - Plan du rez-de-chaussée
+
 #. Les conditions d'accès sont similaires à l'usine de Morrocoy : groupes gérés, équipe soignantes qui font les 3/8, accès avec des bissas.
 #. Il y a cependant des différences
 #. - l'accès au bâtiment se fera après contrôle de la température corporelle et sans identification physique à la seconde porte. Une identification de la proximité du badge d'accès suffira.
