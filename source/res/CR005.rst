@@ -36,7 +36,7 @@ CR005 Architecture et contraintes techniques
 #. En fonction des cas, et la plupart du temps après s'être rendu sur place, le gardien peut choisir de prendre ou laisser l’incident.
 #. Un gardien peut commenter un incident à tout moment, qu'il l'ait pris, réglé ou laissé, en lui associant du texte, des photos ou de l’audio/vidéo.
 #. Le règlement d’un incident dépend des cas.
-#. En cas d’incident d’accès, le gardien peut fermer ou ouvrir une des portes du bissas (ou les deux) depuis son smartphone.
+#. En cas d’incident d’accès, le gardien peut fermer ou ouvrir une des portes du bissas (ou les deux) depuis sa mini-tablette.
 #. Quand le bissas est déverrouillé, la simple détection d’une personne devant le bissas l'ouvre et qu'il est refermé une fois qu’elle est passée.
 #. Evidemment si nécessaire les gardiens appelleront les services compétents (urgences, police, armée, etc.)
 #. La discussion sur le rôle des gardiens s'est achevée sur la conclusion suivante.
