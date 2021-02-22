@@ -87,7 +87,7 @@ Nouvelles parties prenantes :
 #. Il en sera de même si le détecteur de métaux intégré dans les Xtra se déclenche.
 
 #. Les bisas Metra ont été développés récemment pour les besoins de l'épidémie de COVID.
-#. Ils incluent un lecteur de température personnelle à l'intérieur du bissas et un buzzer par signaler que la température est trop haute. 
+#. Ils incluent un lecteur de température personnelle à l'intérieur du bissas et un buzzer pour signaler que la température est trop haute. 
 #. La sortie du bissas est contrôlée par une seconde lecture du badge, pour éviter que quelqu'un fasse entrer une autre personne avec son badge.
 #. Ces bissas répondent tout à fait aux attentes de Ryokan, en particulier avec des badges de proximité pour les personnels.
 #. Les visiteurs réguliers (médecin, fournisseurs, voire même certains proches de résidents, pourront avoir des badges classiques (passage dans le lecteur). Cette fonctionnalité n'est pas prioritaire et sera développée ultérieurement. 
