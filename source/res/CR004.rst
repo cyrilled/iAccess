@@ -98,7 +98,7 @@ Nouvelles parties prenantes :
 #. C'est également le cas si quelqu'un bloque une porte (avec un pied ou autre).
 
 #. Bissis propose aussi des poignées déverrouillables par badge de proximité, nommées Petra. 
-#. Elles permettent de contrôler l'accès et la sortie d'une pièce. 
+#. Elles permettent de contrôler l'accès et la sortie d'une pièce. Elles sont connectées comme les bissas au serveur de contrôle.
 
 #. Une fois de plus Bissis propose le matériel pour gérer les accès, mais leurs fonctions devront être commandées depuis le serveur de contrôle.
 #. Evidemment les digitCodes transmis par le lecteur d'empreinte digitale devront être comparés aux données disponibles sur le serveur applicatif.
