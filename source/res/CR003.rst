@@ -29,7 +29,7 @@ Nouvel intervenant, directeur de l'EHPAD Rives de Seine à Neuilly :
 #. Il y a cependant des différences
 #. - l'accès au bâtiment se fera après contrôle de la température corporelle dans le bissas et sans identification physique à la seconde porte. Une identification de la proximité du badge d'accès suffira à la seconde porte.
 #. - l'accès aux pièces à l'intérieur de l'EHPAD (salles, chambres, bureaux, cuisine, locaux techniques, ..) se fera par de simples portes à contrôle d'accès, sans nécessairement enregistrer les passages. La sortie des pièces sera libre, sans contrôle.
-#. - en cas d'incendie, les portes extérieures (des bissas) seront automatiquement déverrouillées.
+#. - en cas d'incendie, les portes d'accès extérieurs aux bâtiments seront ouvertes automatiquement
 #. En conclusion, la visite sur dans l'EHPAD a été assez rapide, car les besoins sont assez similaires à Morrocoy et tout à fait pertinents pour iAccess.
 #. AccessIT confirme son intérêt de développer une version de iAccess pour ce site. 
 #. Cette version sera la première développée et sa conception sera faite au plus vite par l'IM2AG.
