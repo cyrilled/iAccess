@@ -34,7 +34,7 @@ Drivers des bissas
 #. Les fonctions suivantes sont spécifiques aux bissas Xtra+
 #. scannerEmpreinte(face) : empreinte
 #.  lance le scan d'une empreinte digitale sur le lecteur interne de la face passée en paramètre
-#. 
+#. ######
 #. Les fonctions suivantes sont spécifiques aux bissas Metra
 #.  prendreTempérature() : décimal
 #. Prend la température d'une personne présente à l'intérieur du bissas
@@ -43,7 +43,7 @@ Drivers des bissas
 #. L'installation d'un bissas s'effectue de la façon suivante
 #. - Lancement d'un contrôleur de bissas installé sur un serveur applicatif
 #. - Connexion physique du bissas au panneau de brassage d'un serveur de contrôle applicatif
-#. - Installation du code des drivers de bissas sur ce serveur de contrôle
+#. Installation du code des drivers de bissas sur ce serveur de contrôle
 applicatif
 #. - Lancement sur ce serveur de contrôle d'une instance du driver de bissas, en lui donnant en paramètre le port de connexion au panneau de brassage du bissas installé, son numéro de série et la référence du contrôleur de bissas qui va le commander
 applicatif
