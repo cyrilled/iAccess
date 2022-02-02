@@ -25,10 +25,10 @@ Ce document présente l'installation et le fonctionnement des drivers de bissas
 #. -- scannerQRCode() : qrcode. Lance le scan d'un QRCode sur le lecteur externe face A
 #. #########
 #. FONCTIONS SPECIFIQUES AUX BISSAS XTRA+
-#. - scannerEmpreinte(face) : empreinte. Lance le scan d'une empreinte digitale sur le lecteur interne de la face passée en paramètre
+#. -- scannerEmpreinte(face) : empreinte. Lance le scan d'une empreinte digitale sur le lecteur interne de la face passée en paramètre
 #. ######
 #. FONCTIONS SPECIFIQUES AUX BISSAS METRA
-#. - prendreTempérature() : décimal. Prend la température d'une personne présente à l'intérieur du bissas
+#. -- prendreTempérature() : décimal. Prend la température d'une personne présente à l'intérieur du bissas
 #. ######
 #. INSTALLATION DES BISSAS
 #. ######
