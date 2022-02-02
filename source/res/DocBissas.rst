@@ -7,9 +7,8 @@ Annexe - Documentation technique des bissas
 :Objectif: Documenter le fonctionnement logiciel des bissas
 
 
-Drivers des bissas
-------------------
-
+#. DRIVERS DES BISSAS
+#. #####
 #. Les bissas sont fournis avec des drivers dont l'API est composée des fonctions essentielles suivants
 #. lancer(port entier, numSérie entier, refContrôleur Contrôleur)
 #.  lance une instance du driver avec
@@ -42,6 +41,8 @@ Drivers des bissas
 #. INSTALLATION DES BISSAS
 #. L'installation d'un bissas s'effectue de la façon suivante
 #. - Lancement d'un contrôleur de bissas installé sur un serveur applicatif
+#. - Installation du code des drivers de bissas sur ce serveur de contrôle
+applicatif AIE AIE
 #. - Connexion physique du bissas au panneau de brassage d'un serveur de contrôle applicatif
 #. Installation du code des drivers de bissas sur ce serveur de contrôle
 applicatif
