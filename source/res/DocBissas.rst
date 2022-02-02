@@ -6,7 +6,7 @@ Annexe - Documentation technique des bissas
 :Auteur: CDS
 :Objectif: Documenter le fonctionnement logiciel des bissas
 
-début 
+
 #. INSTALLATION
 #. ------------
 #. L'installation d'un bissas s'effectue de la façon suivante
