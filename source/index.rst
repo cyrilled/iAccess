@@ -19,4 +19,5 @@ Comptes rendus de réunions
     res/CR003.rst
     res/CR004.rst
     res/CR005.rst
+    res/DocBissas.rst
 

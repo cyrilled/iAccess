@@ -89,7 +89,6 @@ Nouvelles parties prenantes :
 #. Ils incluent un lecteur de température personnelle à l'intérieur du bissas et un buzzer pour signaler que la température est trop haute. 
 #. La sortie du bissas est contrôlée par une seconde lecture du badge, pour éviter que quelqu'un fasse entrer une autre personne avec son badge.
 #. Ces bissas répondent tout à fait aux attentes de Ryokan, en particulier avec des badges de proximité pour les personnels.
-#. Les visiteurs réguliers (médecin, fournisseurs, voire même certains proches de résidents, pourront avoir des badges classiques (passage dans le lecteur).
 #. Le fonctionnement global des bissas Metra est identique aux bisas XTRA.  
 
 #. Bissis propose aussi des poignées déverrouillables par badge de proximité, nommées Petra. 
