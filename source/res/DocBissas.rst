@@ -43,7 +43,7 @@ Annexe - Documentation technique des bissas
 #. L'installation d'un bissas s'effectue de la façon suivante
 #. Lancement d'un contrôleur de bissas installé sur un serveur applicatif
 #. Connexion physique du bissas au panneau de brassage d'un serveur de contrôle applicatif
-#. test
+#. Installation du code des drivers de bissas sur ce serveur
 #. Installation du code des drivers de bissas sur ce serveur de contrôle
 applicatif
 #. - Lancement sur ce serveur de contrôle d'une instance du driver de bissas, en lui donnant en paramètre le port de connexion au panneau de brassage du bissas installé, son numéro de série et la référence du contrôleur de bissas qui va le commander
