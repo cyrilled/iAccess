@@ -8,15 +8,14 @@ Annexe - Documentation technique des bissas
 
 
 #. INSTALLATION
+#.------------
 #. L'installation d'un bissas s'effectue de la façon suivante
-<ul>
-	<li>Lancement d'un contrôleur de bissas installé sur un serveur applicatif</li>
-	<li>Connexion physique du bissas au panneau de brassage d'un serveur de contrôle</li>
-	<li>Installation du code des drivers de bissas sur ce serveur de contrôle</li>
-	<li>Lancement sur ce serveur de contrôle d'une instance du driver de bissas, en lui donnant en paramètre le port de connexion au panneau de brassage du bissas installé, son numéro de série et la référence du contrôleur de bissas qui va le commander</li>
-	<li>Appel par cette instance de driver de la méthode lierABissas(oid,nsb) du contrôleur de bissas. Elle indique au contrôleur de bissas la référence (oid) et le numéro de série (nsb) du bissas qu'il va commander</li>
-	<li>Une fois lancé l'instance du driver de bissas est en attente du passage d'un badge sur un de ses lecteur</li>
-</ul>
+- Lancement d'un contrôleur de bissas installé sur un serveur applicatif
+- Connexion physique du bissas au panneau de brassage d'un serveur de contrôle
+- Installation du code des drivers de bissas sur ce serveur de contrôle
+- Lancement sur ce serveur de contrôle d'une instance du driver de bissas, en lui donnant en paramètre le port de connexion au panneau de brassage du bissas installé, son numéro de série et la référence du contrôleur de bissas qui va le commander
+- Appel par cette instance de driver de la méthode lierABissas(oid,nsb) du contrôleur de bissas. Elle indique au contrôleur de bissas la référence (oid) et le numéro de série (nsb) du bissas qu'il va commander
+- Une fois lancé l'instance du driver de bissas est en attente du passage d'un badge sur un de ses lecteur
 #. A la lecture d'un badge sur une de ses faces, le driver de Bissas appelle la méthode contrôlerBissas(face,bCode) où face est la face (A ou B) sur laquelle la lecture a été faite et bCode est le bCode du badge lu. Cette méthode va gérer le passage dans le bissas.
 
 #. DRIVERS de bissas
