@@ -10,18 +10,19 @@ Ce document présente l'installation et le fonctionnement des drivers de bissas
 
 #. DRIVERS DES BISSAS
 #. #####
-#. Les bissas sont fournis avec des drivers dont l'API est composée des opérations essentielles suivants
+#. Les bissas sont fournis avec des drivers dont l'API est composée des fonctions essentielles suivants
 #. -- lancer(port entier, numSérie entier, refContrôleur Contrôleur). Lance une instance du driver avec
 #. - port : le numéro du port de connexion au panneau de brassage du bissas
 #. - numSérie : le numéro de série du bissas
 #. - refContrôleur la référence (un oid) du contrôleur de bissas qui va le commander
 #. -- allumerLedLecteur(f face, c couleur, t entier). Allume la LED du lecteur de badge sur la face f avec la couleur c pendant t secondes. Les valeurs de couleur possibles sont vert, orange, rouge. Quand c=0 la LED est allumée jusqu'à la prochaine commande de changement.
 #. -- clignoterLedLecteur(f face, c couleur, t entier). Fait clignoter la LED du lecteur de badge sur la face f avec la couleur c pendant t secondes. Les valeurs de couleur possibles sont vert, orange, rouge. Quand c=0 la LED clignote jusqu'à la prochaine commande de changement. 
-#. -- ouvrirPorte(face:caractère) : chaîne. Ouvre la porte de la face du bissas passée en paramètre et renvoie KO en cas d'échec (impossible d'ouvrir la porte complètement), Full si une personne est détectée présente, Piggybacking si plus d'une personne est présente et VOID si personne n'est détecté au bout de 8 secondes
-#. -- fermerPorte(face:caractère) : chaîne. Ferme la porte de la face du bissas passée en paramètre et renvoie KO en cas d'échec (impossible de fermer la porte complètement), VOID dès que le bissas est vide et FULL si une personne est encore détectée présente au bout de 8 secondes
+#. -- ouvrirPorte(face:caractère) : chaîne. Ouvre la porte de la face du bissas passée en paramètre et renvoie OK en cas de réussite et KO en cas d'échec (impossible d'ouvrir la porte complètement)
+#. -- fermerPorte(face:caractère) : chaîne. Ferme la porte de la face du bissas passée en paramètre et renvoie OK en cas de réussite, KO en cas d'échec (impossible de fermer la porte complètement)
+#. -- détecterPrésence(t:entier) : chaîne. Détecte la présence d'un personne à l'intérieur du bissas et renvoie Full si quelqu'un est présent, Piggybacking si plus d'une personne est présente et Void si personne n'est détecté a bout de t secondes
 #. #########
 #. FONCTIONS SPECIFIQUES AUX BISSAS XTRA
-#. -- l'opération ouvrirPorte Metal renvoie METAL si du métal est détecté à l'intérieur du bissas, en plus des retours standards.
+#. -- détecterMetaux() : chaîne. Détecte la présence de métal l'intérieur du bissas et renvoie Metal si du métal est présent, Clear sinon
 #. -- scannerQRCode() : qrcode. Lance le scan d'un QRCode sur le lecteur externe face A
 #. #########
 #. FONCTIONS SPECIFIQUES AUX BISSAS XTRA+

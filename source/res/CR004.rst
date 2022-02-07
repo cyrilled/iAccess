@@ -54,7 +54,7 @@ Nouvelles parties prenantes :
 #. Cette fonction est nécessaire entre autres en cas d'incendie ou d'accident industriel (par exemple à Chimiotis).
 #. Les lecteurs des bissas sont polyvalents et permettent plusieurs types d'identification.
 #. Ils sont compatibles des cartes classiques ou sans contact (jusqu'à 1m).
-#. Les lecteurs sont équipés de trois leds (une rouge, une orange et une verte).
+#. Les lecteurs sont équipés d'un LED qui peut prendre trois couleurs (rouge, orange, vert).
 #. Tout comme le Cilindro Bibussola, les bissas possèdent un détecteur de présence à l'intérieur du sas qui peut détecter la présence ou l'absence d'une personne et si plus d'une personne est dans le bissas (piggybacking)
     .. _CR004Fig2:
 
@@ -71,12 +71,13 @@ Nouvelles parties prenantes :
 #. Ces bissas sont préconisés par AccessIT pour l'usine de Morrocoy.
 #. Ils permettent d'être sûr (à 98%) que le badgeur est bien la personne associée au badge.
 #. La personne ne peut en effet sortir du sas qu'après avoir effectué une identification physique.
-#. Cette identification physique se fait à l'intérieur du sas, après l'identification par badge à l'entrée.
+#. Cette identification physique se fait à l'intérieur du sas, après être entré dans le bissas avec une identification par badge.
 #. L'identification physique est une empreinte digitale
 #. Elle devra se faire en moins de 5 secondes.
 
 #. Si la personne n'est pas autorisée à sortir un incident sera généré par le bissas Xtra.
 #. Le badgeur sera alors bloqué dans le sas et devra attendre qu'un gardien vienne le débloquer.
+#. Un bissas en mode incident sera alors totalement contrôlé par le gardien jusqu'à son retour à la normale. 
 #. Il en sera de même si le détecteur de métaux intégré dans les Xtra se déclenche.
 #. Une ultime version du bissas Xtra, le bissas Xtra+ a en plus un lecteur de QRCode sur l'extérieur de sa face A
 #. C'est ce bissas Xtra+ qui sera installé sur les points d'accès au bâtiment depuis l'extérieur à Chimiotis
