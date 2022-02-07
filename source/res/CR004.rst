@@ -77,7 +77,6 @@ Nouvelles parties prenantes :
 
 #. Si la personne n'est pas autorisée à sortir un incident sera généré par le bissas Xtra.
 #. Le badgeur sera alors bloqué dans le sas et devra attendre qu'un gardien vienne le débloquer.
-#. Un bissas en mode incident sera alors totalement contrôlé par le gardien jusqu'à son retour à la normale. 
 #. Il en sera de même si le détecteur de métaux intégré dans les Xtra se déclenche.
 #. Une ultime version du bissas Xtra, le bissas Xtra+ a en plus un lecteur de QRCode sur l'extérieur de sa face A
 #. C'est ce bissas Xtra+ qui sera installé sur les points d'accès au bâtiment depuis l'extérieur à Chimiotis
