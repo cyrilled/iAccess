@@ -26,10 +26,10 @@ CR005 Architecture et contraintes techniques
 #. Les applis des mega-smartphones des gardiens seront connectées au serveur applicatif via une connexion sécurisée https et un réseau wifi interne sécurisé.
 #. AccessIT mentionne qu'il est possible d'installer des systèmes de brouillage et bien d'autres choses, qui rendent ce réseau à la fois sûr et fiable.
 
-    .. figure:: media/samsungtab.jpg
+    .. figure:: media/samsung.jpg
         :align: center
 
-        Fig. 1 : Mini-tablettes des gardiens
+        Fig. 1 : Mega-smartphones des gardiens
 
 #. Les incidents doivent être localisés (e.g. bissas, porte, point d'accès et/ou zone) et gardés dans l'historique.
 #. En fonction des cas, et la plupart du temps après s'être rendu sur place, le gardien choisit de prendre en charge un incident ou de le laisser aux autres gardiens.
