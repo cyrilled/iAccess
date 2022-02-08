@@ -81,7 +81,7 @@ Nouvelles parties prenantes :
 #. Une ultime version du bissas Xtra, le bissas Xtra+ a en plus un lecteur de QRCode sur l'extérieur de sa face A
 #. C'est ce bissas Xtra+ qui sera installé sur les points d'accès au bâtiment depuis l'extérieur à Chimiotis
 #. Il permettra de vérifier les pass sanitaires des badgeurs lors de leur accès au site  
-#. ####
+#. ---
 
 #. AccessIT insiste de nouveau sur le fait que différents scénarios devront donner lieu à des incidents envoyés aux gardiens.
 #. C'est le cas par exemple si un badgeur ne sort pas du sas au bout de 8 secondes.
