@@ -88,7 +88,7 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. Il s'agit en effet d'une représentation générale et sans doute satisfaisante.
 
 #. Comme sur tous les sites, les gardiens peuvent aller dans toutes les zones dont la salle de contrôle.
-#. Ils peuvent depuis leur mini-tablette débloquer l’accès ou la sortie d’une personne bloquée suite à un incident.
+#. Ils peuvent depuis leur mega-smartphone débloquer l’accès ou la sortie d’une personne bloquée suite à un incident.
 #. Un élément important à Morrocoy concerne les règles à appliquer en cas d'incendie dans une zone.
 #. Tous les points d'accès doivent être ouverts automatiquement.
 #. Il faudra donc prendre en compte les systèmes à incendie et les interfacer avec iAccess.
