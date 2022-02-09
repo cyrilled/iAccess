@@ -54,7 +54,7 @@ Nouvelles parties prenantes :
 #. Cette fonction est nécessaire entre autres en cas d'incendie ou d'accident industriel (par exemple à Chimiotis).
 #. Les lecteurs des bissas sont polyvalents et permettent plusieurs types d'identification.
 #. Ils sont compatibles des cartes classiques ou sans contact (jusqu'à 1m).
-#. Les lecteurs sont équipés d'un LED qui peut prendre trois couleurs (rouge, orange, vert).
+#. Les lecteurs sont équipés d'une LED qui peut prendre trois couleurs (rouge, orange, vert).
 #. Tout comme le Cilindro Bibussola, les bissas possèdent un détecteur de présence à l'intérieur du sas qui peut détecter la présence ou l'absence d'une personne et si plus d'une personne est dans le bissas (piggybacking)
     .. _CR004Fig2:
 
