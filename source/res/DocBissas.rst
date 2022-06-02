@@ -17,17 +17,19 @@ Ce document présente l'installation et le fonctionnement des drivers de bissas
 #. - refContrôleur la référence (un oid) du contrôleur de bissas qui va le commander
 #. -- allumerLedLecteur(f face, c couleur, t entier). Allume la LED du lecteur de badge sur la face f avec la couleur c pendant t secondes. Les valeurs de couleur possibles sont vert, orange, rouge. Quand t=0 la LED est allumée jusqu'à la prochaine commande de changement.
 #. -- clignoterLedLecteur(f face, c couleur, t entier). Fait clignoter la LED du lecteur de badge sur la face f avec la couleur c pendant t secondes. Les valeurs de couleur possibles sont vert, orange, rouge. Quand t=0 la LED clignote jusqu'à la prochaine commande de changement. 
-#. -- ouvrirPorte(face:caractère) : chaîne. Ouvre la porte de la face du bissas passée en paramètre et renvoie KO en cas d'échec (impossible d'ouvrir la porte complètement), Full si une personne est détectée présente, Piggybacking si plus d'une personne est présente et VOID si personne n'est détecté au bout de 8 secondes
-#. -- fermerPorte(face:caractère) : chaîne. Ferme la porte de la face du bissas passée en paramètre et renvoie KO en cas d'échec (impossible de fermer la porte complètement), VOID dès que le bissas est vide et FULL si une personne est encore détectée présente au bout de 8 secondes
+#. -- ouvrirPorte(face:caractère, entrée:booléen) : chaîne. Ouvre la porte de la face du bissas passée en paramètre
+#. si entrée est vrai, renvoie KO en cas d'échec (impossible d'ouvrir la porte complètement), Full quand une personne est détectée présente, Piggybacking quand plus d'une personne est détectée présente et VOID quand personne n'est détecté au bout de 8 secondes
+#. si entrée est faux renvoie KO en cas d'échec (impossible d'ouvrir la porte complètement), VOID quand personne n'est détecté et Full quand une personne est détectée présente au bout de 8 secondes 
+#. -- fermerPorte(face:caractère) : chaîne. Ferme la porte de la face du bissas passée en paramètre et renvoie KO en cas d'échec (impossible de fermer la porte complètement), OK sinon
 #. #########
-#. FONCTIONS SPECIFIQUES AUX BISSAS XTRA
-#. -- l'opération ouvrirPorte Metal renvoie METAL si du métal est détecté à l'intérieur du bissas, en plus des retours standards.
-#. -- scannerQRCode() : qrcode. Lance le scan d'un QRCode sur le lecteur externe face A
-#. #########
-#. FONCTIONS SPECIFIQUES AUX BISSAS XTRA+
+#. OPERATIONS SPECIFIQUES AUX BISSAS XTRA
+#. -- l'opération ouvrirPorte() est redéfinie. Elle renvoie METAL quand du métal est détecté à l'intérieur du bissas, en plus des retours standards de ouvrirPorte() des drivers de BISSAS.
 #. -- scannerEmpreinte(face) : digitCode. Lance le scan d'une empreinte digitale sur le lecteur interne de la face passée en paramètre
+#. #########
+#. OPERATIONS SPECIFIQUES AUX BISSAS XTRA+
+#. -- scannerQRCode() : qrcode. Lance le scan d'un QRCode sur le lecteur externe face A
 #. ######
-#. FONCTIONS SPECIFIQUES AUX BISSAS METRA
+#. OPERATIONS SPECIFIQUES AUX BISSAS METRA
 #. -- prendreTempérature() : décimal. Prend la température d'une personne présente à l'intérieur du bissas
 #. ######
 #. INSTALLATION DES BISSAS
