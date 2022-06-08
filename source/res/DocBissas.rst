@@ -35,12 +35,12 @@ Ce document présente l'installation et le fonctionnement des drivers de bissas
 #. INSTALLATION DES BISSAS
 #. ######
 #. L'installation d'un bissas s'effectue de la façon suivante
-#. -- Lancement d'un contrôleur de bissas installé sur un serveur applicatif
-#. -- Connexion physique du bissas au panneau de brassage d'un serveur de contrôle applicatif
-#. -- Installation du code des drivers de bissas sur ce serveur de contrôle applicatif
-#. -- Lancement sur ce serveur de contrôle d'une instance du driver de bissas, en lui donnant en paramètre le port de connexion au panneau de brassage du bissas installé, son numéro de série et la référence du contrôleur de bissas qui va le commander
-#. -- Appel par cette instance de driver de l'opération lierABissas(oid,nsb) du contrôleur de bissas. Elle indique au contrôleur de bissas la référence (oid) et le numéro de série (nsb) du bissas qu'il va commander
-#. -- Une fois lancé l'instance du driver de bissas est en attente du passage d'un badge sur un de ses lecteur
+#. -- sur le serveur applicatif : création d'un contrôleur de bissas et d'une instance de la classe Bissas en leur donnant le numéro de série du bissas. On récupère leurs oids.
+#. -- Connexion physique du bissas au panneau de brassage du serveur de contrôle 
+#. -- Installation du code des drivers de bissas sur le serveur de contrôle
+#. -- Lancement sur le serveur de contrôle d'une instance du driver de bissas, en lui donnant en paramètre le numéro du port de connexion au panneau de brassage, le numéro de série du bissas et l'oid du contrôleur de bissas qui va le commander
+#. -- Appel par cette instance de driver de l'opération lierABissas(oid) du contrôleur de bissas. Elle indique au contrôleur de bissas la référence objet (oid) du bissas qu'il va commander
+#. -- Une fois lancée l'instance du driver de bissas est en attente du passage d'un badge sur un de ses lecteur
 #. ######
 #. FONCTIONNEMENT EN CONTINU
 #. ######
