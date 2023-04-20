@@ -1,12 +1,11 @@
-.. iAccess documentation master file, created by
-   sphinx-quickstart on Fri Nov 29 15:55:25 2019.
+.. iPark documentation master file, created by Cyrille Desmoulins 6/6/2023
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-iAccess
+iPark
 =============
 
-Ce site regroupe l'ensemble des comptes rendus de réunion ayant eu lieu jusqu'à présent dans le cadre du projet iAccess. Ce projet concerne la gestion des accès de sites comme des usines, des lieux de cultes, des hôpitaux, des sites sportifs, des complexes commerciaux, etc. L'objectif du projet consiste à développer le logiciel iAccess dans le cadre d'un consortium mettant en oeuvre différentes parties prenantes au sein de différentes organisations (à ce jour, IM2AG, Batemis, Bissis et Competis).
+Ce site regroupe l'ensemble des comptes rendus de réunion ayant eu lieu jusqu'à présent dans le cadre du projet iPark. Ce projet concerne la gestion des accès à des parking payants. L'objectif du projet est de développer le logiciel iPark dans le cadre d'un consortium mettant en oeuvre différentes parties prenantes au sein de différentes organisations (à ce jour, IM2AG, AccessIt, Département de l'Isère et Z-Park).
 
 Comptes rendus de réunions
 --------------------------
@@ -18,5 +17,5 @@ Comptes rendus de réunions
     res/CR002.rst
     res/CR003.rst
     res/CR004.rst
-    res/CR005.rst
-    res/DocBissas.rst
+    res/DocDrivers.rst
+
