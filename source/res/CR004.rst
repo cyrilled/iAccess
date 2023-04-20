@@ -1,55 +1,121 @@
-CR004 Architecture et contraintes techniques
-============================================
+CR004 Matériels de contrôle d'accès 
+===================================
 
-:Date: 03-18 12h-17h
+:Date: 03-15-07h-20h
 :Type: Réunion
-:PartiesPrenantes: ABI, HSI, KWG, MPA, PSO
-:Lieu: Paris-AccessIT
-:Organisateur: ABI
+:PartiesPrenantes: KWG, CMS, YBI, MPA, ZSH
+:Lieu: Berlin-Bissis
+:Organisateur: KWG
 :Rapporteur: KWG
-:Presents: ABI, HSI, KWG, MPA
-:Objectifs: Définir l'architecture et revenir sur les fonctions associées à chaque noeud.
+:Presents: KWG, CMS, YBI, MPA, ZSH
+:Objectifs: Architecture et discussions sur les fonctionnalités gardien
 
 .. attention::
     Ce compte rendu est un *document de travail* et n'est pas contractuel.
 
-#. AccessIT rappelle l'architecture classique des applications déjà mises en place par leur soin.
-#. Il n'y a aucune raison a priori de changer d'architecture sachant qu'elle fonctionne bien dans différents contextes.
-#. Les matériels (barrière, caméras, etc.) sont toujours connectés directement au serveur de contrôle.
-#. Ce serveur permet de gérer en temps réel les matériels en les commandant par leurs drivers
-#. Le serveur d'applications doit être plus ou moins puissant selon le volume de données à gérer et le nombre de transactions à mettre en œuvre.
-#. Pour l'Hôtel du Département de l'Isère, il n'y aura a priori pas de soucis, mais AccessIT a déjà eu affaire à des parking avec plus de 2 000 places, 10 000 employés, avec des historiques à conserver sur 5 ans (siège de Google à Montain View).
-#. De tels clients devront pouvoir être gérés avec iPark.
+Nouvelles parties prenantes :
+ - Clarissa Maris (CMS) - Bissis, Berlin
+ - Yohav El Benali (YBI) - Bissis, Berlin
 
-#. Contrairement aux architectures traditionnelles, il n’y aura pas de poste fixe pour les gardiens.
-#. Les gardiens seront équipés de smartphones sous iOS pour gérer les incidents.
-#. C'est un grand changement car jusque-là des appareils spécialisés ou des postes fixes étaient utilisés.
-#. Les applis des smartphones des gardiens seront connectées au serveur applicatif via une connexion sécurisée https et un réseau wifi interne sécurisé.
-#. AccessIT mentionne qu'il est possible d'installer des systèmes de brouillage et bien d'autres choses, qui rendent ce réseau à la fois sûr et fiable.
+#. La réunion a eu lieu dans les locaux de Bissis.
+#. Bissis est sur le point de commercialiser des sas de sécurité révolutionnaires.
+#. Ces systèmes physiques seront prochainement commercialisés sous le nom de *Bissas*.
+#. Bissis souhaite accélérer la mise sur le marché des bissas et souhaite donc intégrer le consortium pour
+   participer à l'élaboration de iAccess.
+#. Il est entendu que Bissis fournira ces Bissas et pour chaque modèle un driver logiciel pour l'intégrer à iAccess
+#. Par contre un problème est vite apparu pendant la réunion.
+#. Il sera impossible de voir les bissas avant au moins deux mois, et cela pour des problèmes de confidentialité.
+#. Vu les très nombreuses innovations, de multiples brevets sont en cours d'acquisition et ce procédé est long.
+#. La direction ne souhaite prendre aucun risque de fuites et même en interne seuls certains employés (e.g. YBI) ont une vision globale des bissas tel qu'ils seront présentés dans quelques mois.
+#. Après quelques échanges et discussions animées, il est apparu que ce ne devrait cependant pas être un problème pour iAccess.
+#. Bissis fournira des simulateurs pour que puissent commencer les tests lorsque nécessaires.
+#. Toutes les parties logicielles sur le serveur applicatif pourront être réalisées en amont grâce à la simulation des bissas et des caméras pilotées par les drivers à installer sur le serveur de contrôle.
+#. AccessIT, qui travaille depuis longtemps avec Bissis, est confiant dans cette démarche.
+#. L'API des drivers de Bissas est fournie dès maintenant par Bissis (en annexe de ce compte-rendu)
+#. L'utilisation d'une spécification UML a été soulignée comme un point essentiel dans ce contexte tendu.
+#. Il a été convenu que MIAGE Grenoble fournirait rapidement des scénarios qui serviront à écrire les tests de la version pour Chimiotis.
+#. Il s'agit bien entendu de tester tous les scénarios de passage : sans incident ou avec incident générant des alarmes envoyées aux gardiens.
+#. Pour comprendre le fonctionnement des bissas, Bissis renvoie vers un système proposé par un de ses concurrents.
+#. Les bissas ressembleront *par certains côtés* au système "Cilindro Bibussola" de AllUserIndustrie_:
 
-#. Les incidents doivent être localisés (e.g. niveau, zone, point d'accès, ...) et gardés dans l'historique.
-#. En fonction des cas, et la plupart du temps après s'être rendu sur place, le gardien choisit de prendre en charge un incident ou de le laisser aux autres gardiens.
-#. Lorsqu'un gardien prend un incident, celui change d'état ("nouveau" -> "affecté"). A partir de ce moment c'est lui qui contrôle totalement le point d'accès concerné jusqu'à ce qu'il déclare l'incident clos. 
-#. Pour régler l'incident le gardien agit sur les équipement du point d'accès depuis son smartphone.
-#. Il peut commenter un incident une fois qu'il l'a réglé, avec un texte.
-#. Evidemment si nécessaire les gardiens appelleront les services compétents (urgences, sécurité, police, administration, etc.)
-#. La discussion sur le rôle des gardiens s'est achevée sur la conclusion suivante.
-#. L'ergonomie de l'IHM des gardiens doit être optimale vu l'utilisation à la fois intensive et rapide attendue.
-#. _
-#. Le poste superviseur (toujours un seul, pour des raisons de sécurité) et les postes administrateurs (autant que nécessaire) seront connectés au serveur applicatif par une liaison Ethernet, avec un client lourd utilisant le protocole https.
-#. Il s'agit dans les deux cas de PCs sous Linux.
-#. _
-#. Les administrateurs gèrent non seulement les badgeurs et leurs inscriptions à des groupes, mais aussi les problèmes liés au vol/perte d'un badge.
-#. Lorsqu'un badge est volé ou perdu, le badgeur est tenu d'en informer immédiatement son responsable qui transmet à l'administrateur de groupe du parking.
-#. A chaque fois qu'un badge est annulé suite à une perte ou un vol, l'opération doit être enregistrée dans l'historique.
-#. Cette opération est effectuées par les administrateurs de groupes.
+    .. _CR004Fig1:
 
-#. Lorsqu'un badgeur appartient à plusieurs groupes, et si ces groupes sont gérés par différents administrateurs, n'importe quel de ces administrateurs peut enregistrer la perte du badge.
+    .. figure:: media/cilindroBibussola.jpg
+        :align: center
 
-#. Finalement, le serveur applicatif est le seul élément de iPark a être connecté à internet via tcp-ip.
-#. C'est lui qui gèrera les web-services mentionnés auparavant.
-#. _
-#. Il est fait état d'un démarrage éminent de la phase de collecte des exigences.
-#. Les spécifications UML seront faites par le groupe M1 de la MIAGE de Grenoble à partir des comptes rendus de réunions réalisés jusque-là.
-#. Les personnels de la société AccessIT ne seront pas disponibles dans les semaines qui viennent.
-#. Il risque d'en être de même des personnels de MIAGE Grenoble ayant participé à ces réunions.
+        Fig. 1 : *"CILINDRO BIBUSSOLA"* par AllUserIndustrie_ (cf |videoBibussola|)
+
+#. Le Bibussola n'est là qu'à titre d'illustration ; les bissas ont de nombreuses différences.
+#. Le matériel est extrêmement performant (à condition que les contrôles logiciels suivent).
+#. Les bissas sont symétriques
+#. Ils possèdent systématiquement des lecteurs sur les deux faces extérieures (contrairement aux Bibussolas).
+#. Ils peuvent ainsi contrôler à la fois l’entrée et la sortie.
+#. Ce qui permet à tout moment de savoir qui est présent dans une zone.
+#. Cette fonction est nécessaire entre autres en cas d'incendie ou d'accident industriel (par exemple à Chimiotis).
+#. Les lecteurs des bissas sont polyvalents et permettent plusieurs types d'identification.
+#. Ils sont compatibles des cartes classiques ou sans contact (jusqu'à 1m).
+#. Les lecteurs sont équipés d'une LED qui peut prendre trois couleurs (rouge, orange, vert).
+#. Tout comme le Cilindro Bibussola, les bissas possèdent un détecteur de présence à l'intérieur du sas qui peut détecter la présence ou l'absence d'une personne et si plus d'une personne est dans le bissas (piggybacking)
+    .. _CR004Fig2:
+
+    .. figure:: media/tailgaiting.jpg
+        :align: center
+
+        Fig. 2 : Incident de « piggybacking (cf |videoBibussola| seconde 52)
+
+#. En fait les bissas sont entièrement contrôlés par le driver fourni par Bissis (API fournie en annexe).
+#. Ces drivers seront installés sur le serveur de contrôle.
+#. Chaque bissas sera connecté au panneau de brassage du serveur de contrôle par une connexion RFC 821
+#. Bissis propose deux types de bissas, les bissas Xtra et les bissas Beta.
+#. Les bisas Xtra permettent une haute sécurité mais sont plus lents que les Beta.
+#. Ces bissas sont préconisés par AccessIT pour l'usine de Morrocoy.
+#. Ils permettent d'être sûr (à 98%) que le badgeur est bien la personne associée au badge.
+#. La personne ne peut en effet sortir du sas qu'après avoir effectué une identification physique.
+#. Cette identification physique se fait à l'intérieur du sas, après être entré dans le bissas avec une identification par badge.
+#. L'identification physique est une empreinte digitale
+#. Elle devra se faire en moins de 5 secondes.
+
+#. Si la personne n'est pas autorisée à sortir un incident sera généré par le bissas Xtra.
+#. Le badgeur sera alors bloqué dans le sas et devra attendre qu'un gardien vienne le débloquer.
+#. Il en sera de même si le détecteur de métaux intégré dans les Xtra se déclenche.
+#. Une ultime version du bissas Xtra, le bissas Xtra+ a en plus un lecteur de QRCode sur l'extérieur de sa face A
+#. C'est ce bissas Xtra+ qui sera installé sur les points d'accès au bâtiment depuis l'extérieur à Chimiotis
+#. Il permettra de vérifier les pass sanitaires des badgeurs lors de leur accès au site  
+#. ---
+
+#. AccessIT insiste de nouveau sur le fait que différents scénarios devront donner lieu à des incidents envoyés aux gardiens.
+#. C'est le cas par exemple si un badgeur ne sort pas du sas au bout de 8 secondes.
+#. C'est également le cas si quelqu'un bloque une porte (avec un pied ou autre).
+
+#. Une fois de plus Bissis propose le matériel pour gérer les accès, mais leurs fonctions devront être commandées depuis le serveur de contrôle via les drivers fournis.
+#. Evidemment les digitCodes transmis par le lecteur d'empreinte digitale devront être comparés aux données disponibles sur le serveur applicatif.
+
+#. L'identification des badges et surtout le calcul des autorisations lors d'un passage de badge devra toujours être faite en moins de 2 secondes.
+#. Sachant que l'on envisage d'utiliser ces matériels dans des stades avec plus de 200 entrées ou sorties simultanément un soin tout particulier devra être apporté à cet aspect.
+
+#. Les bissas doivent être reliés au serveur de contrôle du site via des liaisons "RFC 321"; les caméras via des liaisons "RFC 821".
+#. Le matériel et les protocoles associés sont en cours d'être brevetés par Bissis.
+#. Il doit y avoir une salle de contrôle par site ; elle contient le serveur de contrôle.
+#. Il s'agit d'un matériel spécialisé quasi temps réel auquel les bissas sont connectés chacun par un câble sur un panneau de brassage (jusqu'à des centaines sur certains sites).
+#. Ce serveur de contrôle devra être connecté au serveur applicatif via une liaison TCP/IP sécurisée.
+#. Seuls les gardiens ont accès à la salle de contrôle.
+
+#. En conclusion de cette réunion (longue), il apparaît clairement que les technologies innovantes proposées par Bissis en font un partenaire idéal.
+#. De plus, le matériel n'étant pas disponible à ce jour, il est essentiel de préparer les scénarios à prendre en compte et de les spécifier de manière rigoureuse.
+#. Bissis fournira des simulateurs matériels pilotables par le driver fourni.
+#. Dans un premier temps des tests seront ainsi effectués à partir des scénarios fournis par MIAGE Grenoble.
+#. Une réunion est prévue (03-18) pour discuter des points non abordés jusque-là et notamment de l'architecture de déploiement.
+
+
+.. ............................................................................
+
+.. _AllUserIndustrie:
+    http://www.archiexpo.com/prod/alluser-industrie/
+    sliding-doors-commercial-buildings-security-automatic-52110-624140.html#product-item_142100
+
+.. |videoBibussola| replace::
+
+    :download:`VideoBibussola <./media/videoBibussola.mp4>`
+
+
+.. _`QR codes`: http://en.wikipedia.org/wiki/QR_code
