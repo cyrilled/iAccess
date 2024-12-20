@@ -52,14 +52,14 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. Les membres de chaque groupe sont finalement assez stables.
 #. En effet le personnel de l'usine ne change que rarement et les groupes sont basés sur des règles relativement stables dans chaque zone.
 
-#. Ci-dessous un exemple de plan d'autorisation fourni par l'administration de Chemiotis.
+#. Ci-dessous un vieil exemple de plan d'autorisation fourni par l'administration de Chemiotis.
 
     .. _CR003Fig2:
 
     .. figure:: media/morrocoyAutorisations.jpg
         :align: center
 
-        Fig. 2 : Plan d'autorisation (simplifié) pour le site de Morrocoy
+        Fig. 2 : Plan d'autorisation pour le site de Morrocoy
 
 #. Les zones autorisées sont présentées pour chaque groupe à droite.
 #. A gauche sont représentées les périodes d'autorisation.
@@ -76,13 +76,13 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 
     .. table:: Tab. 1 : Exemple ELL 01-06
 
-        +---------+----------------------------------+------+
-        | Groupe  |               Période            | Zones|
-        +=========+==================================+======+
-        | GY      | xxxxxxJASxxx LMMJVxx 08:00-12:00 | PO,PT|
-        +---------+----------------------------------+------+
-        | GX      | xxMAxxxxxxxx xxxxxSD 16:00-23:00 | SD,X |
-        +---------+----------------------------------+------+
+        +----------+----------------------------------+------+
+        | Groupe   |               Période            | Zones|
+        +==========+==================================+======+
+        | Techn1   | xxxxxxJASxxx LMMJVxx 08:00-12:00 | PO,PT|
+        +----------+----------------------------------+------+
+        | OuvrNuit | xxMAxxxxxxxx xxxxxSD 16:00-23:00 | U1,X |
+        +----------+----------------------------------+------+
 
 #. Les autorisations sous forme de triplets pourraient aussi convenir a priori pour les autres sites gérés par iAccess.
 #. Il s'agit en effet d'une représentation générale et sans doute satisfaisante.
@@ -104,6 +104,6 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 
 #. En conclusion, la visite sur le site de Morrocy a été très instructive.
 #. Il correspond bien aux fonctionnalités de base d'iAccess.
-#. AccesIT confirme son intérêt de développer une version d'iAcces pour ce site.
+#. AccesIT confirme son intérêt de développer une version d'iAccess pour ce site.
 #. Cette version sera la première développée et sa conception sera faite au plus vite par MIAGE Grenoble.
 #. La prochaine réunion se fera à Neuilly - Ryokan.

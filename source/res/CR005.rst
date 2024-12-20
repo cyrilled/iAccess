@@ -18,23 +18,23 @@ CR005 Architecture et contraintes techniques
 #. Les matériels sécurité (bissas, caméras, etc.) sont toujours connectés directement au serveur de contrôle.
 #. Ce serveur permet de gérer en temps réel les matériels en les commandant par leurs drivers
 #. Le serveur d'applications doit être plus ou moins puissant selon le volume de données à gérer et le nombre de transactions à mettre en œuvre.
-#. Pour les sites de Ryokan ou de Morrocoy, il n'y aura a priori pas de soucis, mais AccessIT a déjà eu affaire à des sites avec plus de 800 points d'accès, 80 000 badgeurs, avec des historiques à conserver sur 5 ans (base militaire en Sibérie).
+#. Pour les sites de Ryokan ou de Morrocoy, il n'y aura a priori pas de soucis, mais AccessIT a déjà eu affaire à des sites avec plus de 100 points d'accès, 5 000 badgeurs, avec des historiques à conserver sur 5 ans (base militaire en Sibérie).
 #. De tels clients devront pouvoir être gérés avec iAccess.
 #. Contrairement aux architectures traditionnelles, il n’y aura pas de poste fixe pour les gardiens.
-#. Les gardiens seront équipés de mega-smartphones (6 à 7 pouces) sous Android pour gérer les incidents.
+#. Les gardiens seront équipés de smartphones Samsung pour gérer les incidents.
 #. C'est un grand changement car jusque-là des appareils spécialisés ou des postes fixes étaient utilisés.
-#. Les applis des mega-smartphones des gardiens seront connectées au serveur applicatif via une connexion sécurisée https et un réseau wifi interne sécurisé.
+#. Les applis des smartphones des gardiens seront connectées au serveur applicatif via une connexion sécurisée https et un réseau wifi interne sécurisé.
 #. AccessIT mentionne qu'il est possible d'installer des systèmes de brouillage et bien d'autres choses, qui rendent ce réseau à la fois sûr et fiable.
 
     .. figure:: media/samsung.jpg
         :align: center
 
-        Fig. 1 : Mega-smartphones des gardiens
+        Fig. 1 : Smartphones des gardiens
 
 #. Les incidents doivent être localisés (e.g. bissas, porte, point d'accès et/ou zone) et gardés dans l'historique.
 #. En fonction des cas, et la plupart du temps après s'être rendu sur place, le gardien choisit de prendre en charge un incident ou de le laisser aux autres gardiens.
 #. Lorsqu'un gardien prend un incident, celui change d'état ("nouveau" -> "affecté"). A partir de ce moment c'est lui qui contrôle totalement le bissas concerné jusqu'à ce qu'il déclare l'incident clos. 
-#. Pour régler l'incident le gardien agit sur les portes du bissas depuis son mega-smartphone.
+#. Pour régler l'incident le gardien agit sur les portes du bissas depuis son smartphone.
 #. Il peut ouvrir ou fermer une des deux portes du bissas
 #. Un gardien peut commenter un incident une fois qu'il l'a réglé, avec un texte.
 #. Evidemment si nécessaire les gardiens appelleront les services compétents (urgences, police, armée, etc.)
@@ -42,7 +42,7 @@ CR005 Architecture et contraintes techniques
 #. L'IHM des gardiens doit être très ergonomique vu l'utilisation à la fois intensive et rapide attendue.
 #. _
 #. Le poste superviseur (toujours un seul, pour des raisons de sécurité) et les postes administrateurs (autant que nécessaire) seront connectés au serveur applicatif par une liaison Ethernet, avec un client lourd utilisant le protocole https.
-#. Il s'agit dans les deux cas de PCs sous Linux.
+#. Il s'agit dans les deux cas de PCs sous Windows.
 #. _
 #. Les administrateurs gèrent non seulement les badgeurs et leurs inscriptions à des groupes, mais aussi les problèmes liés à la perte d'un badge.
 #. Lorsqu'un badge est perdu, volé (y compris via une agression), le badgeur est tenu d'en informer immédiatement le centre de sécurité.

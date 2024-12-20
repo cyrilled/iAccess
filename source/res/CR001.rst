@@ -33,8 +33,8 @@ En ce début de projet, les parties prenantes sont les suivantes :
 #. L'équipe informatique de AccessIT est assez limitée actuellement. 
 #. Avec l'augmentation de la demande, AccessIT doit faire appel à des prestataires extérieurs pour répondre à ses clients.
 #. La conception de certaines versions de iAccess sera donc confiée à MIAGE Grenoble.
-#. Un certain nombre de contraintes techniques ont été déjà mentionnées : les développements devront se faire en JAVA avec le framework Spring v5.
-#. Le choix de JAVA/Spring est lié au fait que AccessIT utilise déjà ces technologies en interne.
+#. Un certain nombre de contraintes techniques ont été déjà mentionnées : les développements devront se faire en Angular pour le frontend, J2AA pour le backend avec un SGBD Oracle.
+#. Le choix de ces technologie est lié au fait que AccessIT les utilise déjà ces technologies.
 #. Pour le matériel de sécurité, AccessIT a passé un accord avec Bissis.
 #. Bissis est un constructeur proposant du matériel à la pointe de l'innovation.
 #. En particulier AccessIT a décidé de se baser des bissas (sas à deux portes) pour toutes ses offres.
