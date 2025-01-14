@@ -81,7 +81,7 @@ Nouvelles parties prenantes :
 #. ---
 
 #. AccessIT insiste de nouveau sur le fait que différents scénarios devront donner lieu à des incidents envoyés aux gardiens.
-#. C'est le cas par exemple si un badgeur ne sort pas du sas au bout de 8 secondes.
+#. C'est le cas par exemple si un badgeur ne sort pas du sas au bout de 10 secondes.
 #. C'est également le cas si quelqu'un bloque une porte (avec un pied ou autre).
 
 #. Une fois de plus Bissis propose le matériel pour gérer les accès, mais leurs fonctions devront être commandées depuis le serveur de contrôle via les drivers fournis.
