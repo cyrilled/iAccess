@@ -66,7 +66,7 @@ Nouvelles parties prenantes :
 #. Ces drivers seront installés sur le serveur de contrôle.
 #. Chaque bissas sera connecté au panneau de brassage du serveur de contrôle par une connexion RFC 821
 #. Bissis propose deux types de bissas, les bissas Xtra et les bissas Meta.
-#. Les bisas Xtra permettent une haute sécurité mais sont plus lents que les Meta.
+#. Les bissas Xtra permettent une haute sécurité mais sont plus lents que les Meta.
 #. Ces bissas sont préconisés par AccessIT pour l'usine de Morrocoy.
 #. Ils permettent d'être sûr (à 98%) que le badgeur est bien la personne associée au badge.
 #. La personne ne peut en effet sortir du sas qu'après avoir effectué une identification physique.
