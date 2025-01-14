@@ -52,9 +52,8 @@ Nouvelles parties prenantes :
 #. Ils peuvent ainsi contrôler à la fois l’entrée et la sortie.
 #. Ce qui permet à tout moment de savoir qui est présent dans une zone.
 #. Cette fonction est nécessaire entre autres en cas d'incendie ou d'accident industriel (par exemple à Chimiotis).
-#. Les lecteurs des bissas sont polyvalents et permettent plusieurs types d'identification.
-#. Ils sont compatibles des badges RFID.
-#. Les lecteurs sont équipés d'une LED qui peut prendre trois couleurs (vert, orange, rouge).
+#. Les lecteurs des bissas sont compatibles avec des badges RFID.
+#. Ils sont équipés d'une LED qui peut prendre trois couleurs (vert, orange, rouge).
 #. Tout comme le Cilindro Bibussola, les bissas possèdent un détecteur de présence à l'intérieur du sas qui peut détecter la présence ou l'absence d'une personne, la présence d'objet en métal et si plus d'une personne est dans le bissas (piggybacking)
     .. _CR004Fig2:
 
