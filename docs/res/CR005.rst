@@ -46,7 +46,7 @@ CR005 Architecture et contraintes techniques
 #. _
 #. Les administrateurs gèrent non seulement les badgeurs et leurs inscriptions à des groupes, mais aussi les problèmes liés à la perte d'un badge.
 #. Lorsqu'un badge est perdu, volé (y compris via une agression), le badgeur est tenu d'en informer immédiatement le centre de sécurité.
-#. Un badge est n'est associé qu'à une seule personne à la fois et une personne ne peut posséder qu'un badge (pour un site) à un moment donné.
+#. Un badge n'est associé qu'à une seule personne à la fois et une personne ne peut posséder qu'un badge (pour un site) à un moment donné.
 #. Les badgeurs sont connus au minimum par leur nom et leur prénom et un numéro d'identité national (NIN).
 #. Le NIN utilisé dépend des personnes et des pays considérés.
 #. Ce peut être le numéro de passeport, le numéro de carte d'identité ou tout autre document selon le pays.
