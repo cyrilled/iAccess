@@ -77,6 +77,9 @@ Nouvelles parties prenantes :
 #. Si la personne n'est pas autorisée à sortir un incident sera généré par le bissas Xtra.
 #. Le badgeur sera alors bloqué dans le sas et devra attendre qu'un gardien vienne le débloquer.
 #. Il en sera de même si le détecteur de métaux intégré dans les Xtra se déclenche.
+
+#. Les bissas comprennent à l'intérieur un haut-parleur permettant de diffuser des messages audio prédéfinis
+
 #. ---
 
 #. AccessIT insiste de nouveau sur le fait que différents scénarios devront donner lieu à des incidents envoyés aux gardiens.
