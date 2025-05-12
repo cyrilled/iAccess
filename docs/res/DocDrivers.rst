@@ -23,7 +23,7 @@ Ce document présente l'installation et le fonctionnement des drivers de bissas
 #. -- fermerPorte(face:caractère) : chaîne. Ferme la porte de la face du bissas passée en paramètre et renvoie KO en cas d'échec (impossible de fermer la porte complètement), OK sinon
 #. #########
 #. OPERATIONS SPECIFIQUES AUX BISSAS XTRA
-#. -- l'opération ouvrirPorte() est redéfinie. Elle renvoie METAL quand du métal est détecté à l'intérieur du bissas, en plus des retours standards de ouvrirPorte() des drivers de BISSAS.
+#. -- l'opération ouvrirPorte() est redéfinie. Elle renvoie METAL quand quand une personne est détectée présente avec du métal, en plus des retours standards de ouvrirPorte() des drivers de BISSAS.
 #. -- scannerEmpreinte(face) : digitCode. Lance le scan d'une empreinte digitale sur le lecteur interne de la face passée en paramètre
 #. #########
 #. OPERATIONS SPECIFIQUES AUX BISSAS XTRA+
