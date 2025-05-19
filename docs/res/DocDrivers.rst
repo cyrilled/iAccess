@@ -15,7 +15,7 @@ Ce document présente l'installation et le fonctionnement des drivers de bissas
 #. - port : le numéro du port de connexion au panneau de brassage du bissas
 #. - numSérie : le numéro de série du bissas
 #. - refContrôleur la référence (un oid) du contrôleur de bissas qui va le commander
-#. -- allumerLedLecteur(f face, c couleur, t entier). Allume la LED du lecteur de badge sur la face f avec la couleur c pendant t secondes. Les valeurs de couleur possibles sont vert, orange, rouge. Quand t=0 la LED est allumée jusqu'à la prochaine commande de changement.
+#. -- allumerLedLecteur(f face, c couleur, t entier). Allume la LED du lecteur de badge sur la face f avec la couleur c pendant t secondes. Les valeurs de couleur possibles sont vert, orange, rouge. Quand t=0 la LED est allumée jusqu'à la prochaine commande de changement. Quand c=éteint, éteint la led.
 #. -- clignoterLedLecteur(f face, c couleur, t entier). Fait clignoter la LED du lecteur de badge sur la face f avec la couleur c pendant t secondes. Les valeurs de couleur possibles sont vert, orange, rouge. Quand t=0 la LED clignote jusqu'à la prochaine commande de changement. 
 #. -- ouvrirPorte(face:caractère, entrée:booléen) : chaîne. Ouvre la porte de la face du bissas passée en paramètre
 #. si entrée est vrai, renvoie KO en cas d'échec (impossible d'ouvrir la porte complètement), Full quand une personne est détectée présente, Piggybacking quand plus d'une personne est détectée présente et VOID quand personne n'est détecté au bout de 8 secondes
